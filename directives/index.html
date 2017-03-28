@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vue App</title>
+  <script src="https://unpkg.com/vue"></script>
+  <link rel="stylesheet" href="http://davidtkatz.com/public_css/vue.css">
+</head>
+<body>
+  <div id="app">
+    <div
+      v-bind:title="randNum"
+      v-if="shown"
+    >
+      Hover over me for your random number!
+    </div>
+  </div>
+  <script>
+    var app = new Vue({
+      el: '#app',
+      data: {
+        randNum: Math.floor(Math.random() * 50) + 1,
+        shown: false
+      }
+    })
+  </script>
+</body>
+</html>
