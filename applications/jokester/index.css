@@ -1,0 +1,15 @@
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2C3350;
+  margin-top: 60px;
+}
+
+.joke-card {
+  border: 2px solid #2C3350;
+  border-radius: 2px;
+  padding: 5px;
+  margin: 5px;
+}
