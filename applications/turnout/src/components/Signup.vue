@@ -1,5 +1,5 @@
 <template>
-<div class="from-inline">
+<div class="form-inline">
   <h3>Sign Up</h3>
   <div class="form-group">
     <input
